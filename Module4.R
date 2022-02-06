@@ -17,7 +17,7 @@ freq_stats
 
 
 #Create histogram and box plot for each variables
-#Add title and change X axle label
+#Customize graphs
 
 hist(first,
      main = "Assessment by general doctor", 
@@ -49,8 +49,3 @@ boxplot(freq,
         horizontal = TRUE)
 
 
-boxplot(Final_decision,
-        main = "Final decision",
-        xlab = "Freqency",
-        ylab = "Decision",
-        horizontal = TRUE)
