@@ -27,6 +27,10 @@ hist(second,
      main = "Assessment by external doctor",
      xlab = "Assement")
 
+hist(bloodp,
+     main = "Blood Pressure",
+     xlab = "Blood Pressure")
+
 hist(Final_decision,
      main = "Final Decision",
      xlab = "Assement")
